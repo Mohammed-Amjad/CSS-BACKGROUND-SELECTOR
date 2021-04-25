@@ -6,7 +6,7 @@ var h3 = document.querySelector("h3");
 
 function setGradient() {
   body.style.background = "linear-gradient(to right," + color1.value + "," + color2.value + ")";
-  h3.textContent = "body {" + body.style.background + ";}";
+  h3.textContent = "body { background:" + body.style.background + ";}";
 }
 
 color1.addEventListener("input", setGradient);
